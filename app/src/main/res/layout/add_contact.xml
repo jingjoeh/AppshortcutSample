@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<RadioGroup
+		android:id="@+id/radio"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<RadioButton
+			android:id="@+id/radio_phone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:checked="true"
+			android:text="Phone"/>
+
+		<RadioButton
+			android:id="@+id/radio_email"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Email"/>
+	</RadioGroup>
+
+	<EditText
+		android:layout_marginTop="16dp"
+		android:id="@+id/name_edit_text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Name"/>
+
+	<EditText
+		android:id="@+id/val_edit_text"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:hint="Phone/Email"/>
+
+
+</LinearLayout>
